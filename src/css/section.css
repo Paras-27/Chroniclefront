@@ -1,0 +1,42 @@
+.section-1 {
+    margin: 0 111px;
+    font-size: 3.5rem;
+    height: 200vh;
+    padding: 5rem 52px;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative;
+  }
+  
+  .section-1 .scroll-text {
+    position: sticky;
+    top: 100px;
+  }
+  
+  .section-2 {
+    margin: 0 76px;
+    font-size: 3.5rem;
+    height: 600vh;
+    padding: 5rem 20px;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative;
+  }
+  
+  .section-2 .scroll-card {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .section-2 .scroll-card {
+      flex-direction: column;
+    }
+    .section-1{
+    margin: 0 6px;
+    }
+  }
+  
+  

@@ -1,0 +1,41 @@
+.right-card {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .right-card .card {
+    border-radius: 1.25rem;
+    background-color: #101010;
+    color: #adadad;
+    height: 75vh;
+  }
+  .scroll {
+    height: 72vh;
+    margin-left: 4rem;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .scroll .scroll-bg {
+    background-color: #232323;
+    height: 100%;
+    margin: 8px 0;
+    border-radius: 10px;
+  }
+  
+  .scroll .scroll-bg .scroll-bar {
+    width: 4px;
+    background-color: #A594FD;
+    border-radius: 10px;
+  }
+  
+  .scroll .page {
+    font-size: 0.8rem;
+    color: #adadad;
+    opacity: 0.5;
+  }
+  
